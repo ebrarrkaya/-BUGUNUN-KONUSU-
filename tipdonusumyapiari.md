@@ -37,4 +37,43 @@ print("deger1 degiskeninin tipi", type(deger1))
 
 print("deger2 degiskeninın tipi", type(deger2))
 
-Görüldüğü gibi 2 farklı değişken oluşturduk. Bu değişkenlerde str() tip dönüşümünü çağırdık ve farklı verileri İçerisinde tanımladık Son olarak tip dönüşüm işlemini gözlemlemek amacıyla tip sorgulama işlemi gerçekleştirdik. Kodumuzu çalıştırdığımızda <a href="https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/5f90b389e79632365008fd020850c62d7f1b289b/k.png">görüntüdeki gibi bir sonuçla karşılaşacağız</a> 
+Görüldüğü gibi 2 farklı değişken oluşturduk. Bu değişkenlerde str() tip dönüşümünü çağırdık ve farklı verileri İçerisinde tanımladık Son olarak tip dönüşüm işlemini gözlemlemek amacıyla tip sorgulama işlemi gerçekleştirdik. Kodumuzu çalıştırdığımızda <a href="https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/5f90b389e79632365008fd020850c62d7f1b289b/k.png">görüntüdeki gibi bir sonuçla karşılaşacağız.</a> 
+
+# bool()
+Bu yapımızla birlikte, farklı verilerden mantıksal verilere dönüşüm işlemlerı gerçekleştiririz. Burada dikkat edilmesi gereken bir durum var. Boş veriler ve etkisiz veriler False olarak tanımlanmaktadır. Yani 0 değeri False, 1.25 değeri ise True olarak döndürülmektedir. Boş bir metinsel veri ** False, "T" verisi ise True olarak döndürülmektedir. Bu örnekler çoğaltılabilir. Şimdi örnek kodumuzu inceleyelim.
+
+#Değişkenlerimizi oluşturduk ve tip dönüşümü yaptık
+
+deger1=bool(159)
+
+deger2=bool("Ozgur")
+
+deger3=bool(0)
+
+#Tıp ve değeri çıktı aldık
+
+print("deger1 degeri: () tipi () ".format(deger1,type(deger1)))
+
+deger4-bool("")
+
+print("deger2 degeri: () tipi () ".format(deger2, type(deger2)))
+
+print("deger3 degeri: () tipi () ".format(deger3,type(deger3)))
+
+print("deger4 degeri: () tipi {} ".format(deger4, type(deger4)))
+
+Kodumuzu çalıştırdığımızda ise <a href="https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/83e21a6f161773dd25d77f2c89fb62aa27cfb2d8/y.png">görüntüdeki gibi bir sonuçla karşılaşacağız.</a> 
+
+Tabii ki kıyaslama işlemlerinde de kullanabilmemiz mümkündür. Bunun için olan örneğimizi inceleyelim.
+
+deger1-bool (159-80)
+
+deger2-bool(10-10)
+
+Tip ve değeri çıktı aldık
+
+print("deger1 degeri: () tipi () ".format(deger1, type(deger1)))
+
+print("deger2 degeri: () tipi () ".format(deger2, type(deger2)))
+
+Kodumuzu çalıştırdığımızda ise <a href="https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/e776802dde81b6bd1b68993b74f1bc0aac8ad4cc/ss.png">görüntüdeki gibi bir sonuçla karşılaşacağız.</a> 
