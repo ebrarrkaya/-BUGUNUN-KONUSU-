@@ -17,3 +17,24 @@ Buradaki mantık, matematikte de kullanmış olduğumuz iç içe fonksiyonlardı
 float() yapısı ise girilen bir ifadeyi ondalıklı sayıya dönüştürür. Yalnız, girilen ifadenin temel olarak sayıyı temsil etmesi gerekiyor. Örneğin: "Yilmaz" değeri girilirse hata ile karşılaşırız. int() yapısında olduğu gibi float() yapısını kullanmak da matematiksel işlemler yapabilmek için oldukça önemlidir. Yine istenilen ifadenin ondalıklı sayı olarak tanımlanmasını istiyorsak input() fonksiyonundan önce float() yapısını kullanırız. Örnek kodlarımızı inceleyelim:
 
 <a href="https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/e26df61add4124ed039e956e3e71d17f45c55a95/R.png">HATALI KULLANIM VE ÇIKTISI İÇİN TIKLAYINIZ</a>
+
+<a href="https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/1a6f7c67c2abf193fc4abe73536bbc3ca002a538/A.png">DOĞRU KULLANIM VE ÇIKTISI İÇİN TIKLAYINIZ</a>
+
+NOT: Eğer gireceğimiz değer, boy gibi ondalıklı bir sayı değeri olmalıysa muhakkak float() yapısını çağırmamız gerektiğine dikkat edilmelidir. Bu örnekte kütle değerini isterken tam sayı olarak hesaplamak istediğimiz için int() yapısını çağırdık fakat onun da küsüratlı olarak hesaplanmasını istiyorsak yine float() yapısını çağırmalıyız.
+
+# str() 
+Bu yapı ise, verileri karaktersel veri olarak dönüştürmektedir. Dönüştürül mek istenen veri sayı veya mantıksal veri olabilir. Daha iyi anlamak amacıyla örneklerimizi inceleyelim.
+
+#Değişkenlerimizi oluşturduk ve tip dönüşümü yaptık
+
+deger1=str(159)
+
+deger2=str(True)
+
+Tip sorgulaması gerçekleştirdik.
+
+print("deger1 degiskeninin tipi", type(deger1))
+
+print("deger2 degiskeninın tipi", type(deger2))
+
+Görüldüğü gibi 2 farklı değişken oluşturduk. Bu değişkenlerde str() tip dönüşümünü çağırdık ve farklı verileri İçerisinde tanımladık Son olarak tip dönüşüm işlemini gözlemlemek amacıyla tip sorgulama işlemi gerçekleştirdik. Kodumuzu çalıştırdığımızda <a href="https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/5f90b389e79632365008fd020850c62d7f1b289b/k.png">görüntüdeki gibi bir sonuçla karşılaşacağız</a> 
