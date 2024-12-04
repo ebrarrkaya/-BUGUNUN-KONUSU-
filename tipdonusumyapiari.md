@@ -78,4 +78,10 @@ print("deger2 degeri: () tipi () ".format(deger2, type(deger2)))
 
 Kodumuzu çalıştırdığımızda ise <a href="https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/e776802dde81b6bd1b68993b74f1bc0aac8ad4cc/ss.png">görüntüdeki gibi bir sonuçla karşılaşacağız.</a> 
 
-[TİP DÖNÜŞÜM KULLANIMLARI](https://github.com/ebrarrkaya/-BUGUNUN-KONUSU-/blob/92077fccd524dbcd124e7eac9c3b84aa538dcbaf/tipdonusum.md)
+# Tip Dönüşümleri Kullanımları
+# 1. Yöntem:
+a=input()
+a=int(a)
+# 2. Yöntem:
+a=int(input())
+
